@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background: #CEFDFF;
+    transform: skewY(-5deg);
+}
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    
+}
+
+.name .content .p-1 {
+    color: black;
+    font-family: 'Nerko One', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.name .content .p-2 {
+    color: black;
+    font-family: 'Nerko One', cursive;
+    font-size: 40px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+.name .img img {
+    width: 180px;
+    height: 180px;
+}
+
+.info {
+    width: 90%;
+    height: auto;
+    background: #CEFDFF;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .title-seccion {
+    color: black;
+    font-family: 'Nerko One', cursive;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px black solid;
+}
+
+.info .title-info {
+    color: black;
+    font-family: 'Nerko One', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.info .info-name {
+    color: black;
+    font-family: 'Nerko One', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    display: inline-block;
+}
+
